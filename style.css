@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap');
+
+#zibil {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #2a2a2a;
+}
+
+#zibil-urish {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 15px;
+    overflow: visible;
+    background-color: #2a2a2a;
+}
+
+#image-workshop {
+    position: relative;
+    display: inline;
+    margin: auto;
+    padding-top: 10px;
+}
+#title{
+    font-family: "Sulphur Point";
+    font-size: 55px;
+    padding-top: 5px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
+#image-clic {
+    position: relative;
+    display: inline;
+    margin: auto;
+    left: 250px;
+    padding-top: 10px;
+}
+
+.content-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    Border: solid 1px;
+    box-shadow: white;
+    border-color: white;
+    border-radius: 2px;
+}
+
+#h1 {
+    text-align: center;
+    font-size: 75px;
+    /*text-decoration: underline;*/
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.lection{
+    margin: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.img-text{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px  #960018 , 0 0 10px   #960018, 0 0 15px  #960018;
+    border-radius: 8px;
+    Border: solid 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.li {
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    color: white;
+    border-color: white;
+
+}
+
+
+.a {
+    text-align: center;
+    font-family: 'Noto Serif Armenian', serif;
+    text-decoration: blink;
+    padding: 5px 10px;
+    display: inline-block;
+    background: transparent;
+    color: white;
+    border: 0.5px solid #ccc;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+a:hover {
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+a:active {
+    background: transparent;
+    color: white;
+    border-color: white;
+    background-color: white;
+}
+
+
+
+.whiteH2{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Noto Serif Armenian', serif;
+}
+
+
+.whiteP{
+    text-align: center;
+    font-family: 'Sulphur Point', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    /*text-decoration: underline;*/
+    /*border: 1px solid #ccc;*/
+    /*text-decoration: underline;*/
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#hr{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
+    border-radius: 100px;
+}
+
+.thanks{
+    position: fixed;
+    bottom: 0px;
+    left: 12px;
+    color: #b8bab9;
+    text-decoration: underline;
+    opacity: 50%;
+    font-weight: bold;
+    font-style: italic;
+}
+
