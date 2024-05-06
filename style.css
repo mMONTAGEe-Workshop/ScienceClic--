@@ -59,15 +59,33 @@
     font-family: 'Sulphur Point', sans-serif;
 }
 
+.back-button {
+    position: relative;
+    margin: auto;
+    right: auto;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
 .lection{
     margin: auto;
+    width: 75%;
     padding-left: 150px;
     padding-right: 150px;
 }
 
 .img-text{
-    width: 50%;
-    height: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -122,10 +140,18 @@ a:active {
 
 
 
-.whiteH2{
+.whiteH2main{
     text-align: center;
     color: #ffffff;
     font-family: 'Noto Serif Armenian', serif;
+}
+
+.whiteH2{
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Noto Serif Armenian', serif;
+    letter-spacing: -1px;
 }
 
 
