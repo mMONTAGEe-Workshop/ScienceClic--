@@ -17,6 +17,10 @@
     background-color: #2a2a2a;
 }
 
+.header{
+    background-image: url("img/GR/header.png");
+}
+
 #image-workshop {
     position: relative;
     display: inline;
@@ -91,9 +95,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 4px  #960018 , 0 0 4px   #960018, 0 0 20px  #960018;
-    border-radius: 8px;
-    Border: solid 8px;
+    box-shadow: 0 0 0px  #960018 , 0 0 0px   #960018, 0 0 15px  #960018;
+    border-radius: 4px;
+    Border: solid 0px;
+}
+
+.img-text img {
+    display: block;
+    margin: 0; /* Remove default margin */
+    border-radius: 4px; /* Match border radius */
 }
 
 ul {
@@ -125,6 +135,7 @@ ul {
     border: 0.5px solid #ccc;
     border-radius: 0px;
     cursor: pointer;
+    font-size: 22px;
 }
 
 a:hover {
@@ -167,6 +178,16 @@ a:active {
     letter-spacing: -1px;
 }
 
+.imgdescriptionlensing{
+    font-size: 15px;
+    text-align: left;
+    font-style: italic;
+    align-content: left;
+    color: orange;
+    font-family: 'Noto Serif Armenian', serif;
+    letter-spacing: -1px;
+}
+
 
 .whiteP{
     text-align: center;
@@ -178,14 +199,14 @@ a:active {
     /*text-decoration: underline;*/
     margin-right: auto;
     margin-left: auto;
-
+    width: 62%;
 }
 
 #hr{
     border: 0;
-    height: 3px;
+    height: 4px;
     background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
-    border-radius: 100px;
+    border-radius: 50px;
 }
 
 .thanks{
