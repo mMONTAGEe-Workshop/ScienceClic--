@@ -18,7 +18,10 @@
 }
 
 .header{
+    position: static;
     background-image: url("img/GR/header.png");
+    width: 1890px;
+    height: 137px;
 }
 
 #image-workshop {
