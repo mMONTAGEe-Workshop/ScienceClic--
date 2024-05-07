@@ -18,6 +18,8 @@
 }
 
 .header{
+    align-content: center;
+    text-align: center;
     position: static;
     background-image: url("img/GR/header.png");
     width: 1890px;
@@ -44,7 +46,7 @@
     position: relative;
     display: inline;
     margin: auto;
-    left: 250px;
+    left: 5px;
     padding-top: 10px;
 }
 
