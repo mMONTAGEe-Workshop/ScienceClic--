@@ -1,0 +1,1 @@
+VIBRATING STRINGS GIFS ARE TAKEN FROM https://cronodon.com/Atomic/String_Theory.html CREATED BY BotRejectsInc

@@ -225,3 +225,10 @@ a:active {
     font-style: italic;
 }
 
+.icons{
+    width: 128px;
+    height: 64px;
+    text-align: right;
+    align-content: right;
+}
+
