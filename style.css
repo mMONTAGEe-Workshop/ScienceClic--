@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap');
 
+@font-face {
+    font-family: maintext;
+    src:url("arnamu.ttf");
+}
+
+@font-face {
+    font-family: title;
+    src:url("davel-aghvor.otf");
+}
+
 #zibil {
     font-family: Arial, sans-serif;
     margin: auto;
@@ -33,7 +43,7 @@
     padding-top: 10px;
 }
 #title{
-    font-family: "Sulphur Point";
+    font-family: title;
     font-size: 55px;
     padding-top: 5px;
     margin: auto;
@@ -169,8 +179,9 @@ a:active {
     text-align: left;
     align-content: center;
     color: #ffffff;
-    font-family: 'Noto Serif Armenian', serif;
-    letter-spacing: -1px;
+    font-family: maintext;
+    letter-spacing: -0.2;
+    line-height: 1.2;
 }
 
 .imgdescription{
