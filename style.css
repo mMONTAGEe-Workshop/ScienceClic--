@@ -15,7 +15,6 @@
     font-family: Arial, sans-serif;
     margin: auto;
     padding: 15px;
-    overflow: hidden;
     background-color: #2a2a2a;
 }
 
@@ -238,7 +237,7 @@ a:active {
 
 .icons{
     width: 128px;
-    height: 64px;
+    height: 128px;
     text-align: right;
     align-content: right;
 }
